@@ -27,7 +27,7 @@ body {
   background-color: var(--White);
   border-radius: 1rem 1rem 10rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
+  padding: 4rem;
   margin: 1rem;
   display: flex;
   flex-direction: column;
@@ -36,4 +36,48 @@ body {
 }
 .date {
   display: flex;
+  gap: 2rem;
+}
+.date-input {
+  display: flex;
+  flex-direction: column;
+}
+.date-input label {
+  color: var(--Smokey-grey);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.date-input input {
+  border: 1px solid var(--light-grey);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--off-black);
+  max-width: 150px;
+}
+.btn {
+  background-color: var(--purple);
+  color: var(--White);
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-weight: 400;
+  font-size: 4rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.date-display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  font-size: 5rem;
+  font-weight: 800;
+  font-style: italic;
+}
+.date-display span {
+  color: var(--purple);
 }
